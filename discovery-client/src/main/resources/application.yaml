@@ -1,0 +1,26 @@
+spring:
+    application:
+        name: discovery-client
+server:
+    port: 9999
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+        preferIpAddress: true
+management:
+    endpoints: 
+        enabled-by-default: true
+        web:
+            exposure:
+                include:
+                    - "info"
+    endpoint:
+        info:
+            enabled: true
+        beans:
+            enabled: true
+
+
+

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\menu_microservice"
+		},
+		{
+			"path": "..\\item_microservice"
+		},
+		{
+			"name": "discovery-server",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
